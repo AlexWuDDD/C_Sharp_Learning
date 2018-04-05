@@ -1,0 +1,10 @@
+C:\Users\e823551\Documents\MyC#Learning\bin\Debug\netcoreapp2.0\MyC#Learning.deps.json
+C:\Users\e823551\Documents\MyC#Learning\bin\Debug\netcoreapp2.0\MyC#Learning.runtimeconfig.json
+C:\Users\e823551\Documents\MyC#Learning\bin\Debug\netcoreapp2.0\MyC#Learning.runtimeconfig.dev.json
+C:\Users\e823551\Documents\MyC#Learning\bin\Debug\netcoreapp2.0\MyC#Learning.dll
+C:\Users\e823551\Documents\MyC#Learning\bin\Debug\netcoreapp2.0\MyC#Learning.pdb
+C:\Users\e823551\Documents\MyC#Learning\obj\Debug\netcoreapp2.0\MyC#Learning.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\MyC#Learning\obj\Debug\netcoreapp2.0\MyC#Learning.AssemblyInfoInputs.cache
+C:\Users\e823551\Documents\MyC#Learning\obj\Debug\netcoreapp2.0\MyC#Learning.AssemblyInfo.cs
+C:\Users\e823551\Documents\MyC#Learning\obj\Debug\netcoreapp2.0\MyC#Learning.dll
+C:\Users\e823551\Documents\MyC#Learning\obj\Debug\netcoreapp2.0\MyC#Learning.pdb
