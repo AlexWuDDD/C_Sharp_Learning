@@ -133,11 +133,87 @@ namespace Chapter7
         }
     }
 
+    abstract class AbClass
+    {
+        public void IdentifyBase()
+        {Console.WriteLine("I am AbClass");}
 
+        abstract public void IdentifyDerived();
+    }
+
+    class DerivedClass : AbClass
+    {
+        override public void IdentifyDerived()
+        {Console.WriteLine("I am DerivedClass");}
+    }
+
+    abstract class MyBase
+    {
+        public int SideLength   = 10;
+        const int TriangleSideCount = 3;
+
+        abstract public void PrintStuff(string s);
+        abstract public int MyInt{get; set;}
+
+        public int PerimeterLength()
+        {
+            return TriangleSideCount * SideLength;
+        }
+    }
+
+    class MyClass : MyBase
+    {
+        public override void PrintStuff(string s)
+        {
+            Console.WriteLine(s);
+        }
+
+        private int _myInt;
+        public override int MyInt
+        {
+            get{return _myInt;}
+            set{_myInt = value;}
+        }
+    }
+
+    static public class MyMath
+    {
+        public static float PI = 3.14f;
+        public static bool IsOdd(int x)
+        {return x%2 == 1;}
+
+        public static int Times2(int x)
+        {return 2*x;}
+    }
+
+    class MyData
+    {
+        private double D1;
+        private double D2;
+        private double D3;
+
+        public MyData(double d1, double d2, double d3)
+        {
+            D1 = d1; D2 = d2; D3 = d3;
+        }
+
+        public double Sum()
+        {
+            return D1 + D2 + D3;
+        }
+    }
+
+    static class ExtendMyData
+    {
+        public static double Average(this MyData md)
+        {
+            return md.Sum() / 3;
+        }
+    }
 
    class Program
    {
-       static void MainTest()
+       static void Main()
        {
            OtherClass oc = new OtherClass();
            oc.Method1(oc.Field1);
@@ -181,6 +257,28 @@ namespace Chapter7
            Console.WriteLine(derived3.MyProperty);
            Console.WriteLine(mybc3.MyProperty);
 
+           Console.WriteLine("***********************************");
+           DerivedClass b = new DerivedClass();
+           b.IdentifyBase();
+           b.IdentifyDerived();
+
+           Console.WriteLine("***********************************");
+           MyClass mc = new MyClass();
+           mc.PrintStuff("This is a string");
+           mc.MyInt = 28;
+           Console.WriteLine(mc.MyInt);
+           Console.WriteLine("Perimeter Length: {0}", mc.PerimeterLength());
+           
+           Console.WriteLine("************************************");
+           int val = 3;
+           Console.WriteLine("{0} is odd is {1}", val, MyMath.IsOdd(val));
+           Console.WriteLine("{0} * 2 = {1}", val, MyMath.Times2(val));
+
+           Console.WriteLine("*************************************");
+           MyData md = new MyData(3,4,5);
+           Console.WriteLine("Sum: {0}", md.Sum());
+           Console.WriteLine("Average: {0}", ExtendMyData.Average(md));
+           Console.WriteLine("Average: {0}", md.Average());
        }
    }
 }

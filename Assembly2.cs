@@ -8,7 +8,7 @@ namespace UsesBaseClass
     }
 
     class Program{
-        static void Main()
+        static void MainTest()
         {
             DerivedClass mdc = new DerivedClass();
             mdc.PrintMe();

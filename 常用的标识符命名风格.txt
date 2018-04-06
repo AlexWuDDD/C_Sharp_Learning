@@ -1,0 +1,7 @@
+风格名称        描述                              推荐使用                                             示例
+Pascal大小写    标识符中每个单词的首字母大写        用于类型名称和类中对外可见成员的名称。                  CardDeck
+                                                 涉及的名称包括：类、方法、命名空间、属性和公共字段       DealersHand
+Camel大小写     标识符中每个单词的首字母大写        用于局部标量的名称和方法声明的形参名称                  totalCycleCount
+                第一个单词除外                                                                         randomSeedParam
+下划线加Camel   以下划线开头的Camel大小写           用于私有的受保护的字段                                _cycleCount
+大小写          的标识符                                                                               _selectedIndex         
