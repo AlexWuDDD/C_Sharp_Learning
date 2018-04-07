@@ -213,7 +213,7 @@ namespace Chapter7
 
    class Program
    {
-       static void Main()
+       static void MainTest()
        {
            OtherClass oc = new OtherClass();
            oc.Method1(oc.Field1);
