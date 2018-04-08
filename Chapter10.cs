@@ -20,7 +20,7 @@ struct Simple
 namespace Chapter10
 {
     class Program{
-        static void Main()
+        static void MainTest()
         {
             Point first, second, third;
             first.x = 10; first.y = 10;

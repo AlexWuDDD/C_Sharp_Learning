@@ -59,8 +59,8 @@ namespace Chapter8{
 
     class SomeClass
     {
-        public int Field1;
-        public int Field2;
+        public int Field1 = 0;
+        public int Field2 = 0;
 
         public void Method1(){}
         public int Method2(){return 1;}
