@@ -36,7 +36,7 @@ namespace Chapter13{
         void PrintHigh(int value){
             Console.WriteLine("{0} - High Value", value);
         }
-        static void Main(){
+        static void MainTest(){
             Program program = new Program();
 
             MyDel del;
