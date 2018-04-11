@@ -45,7 +45,7 @@ namespace Chapter14{
         public void MethodB(object o, EventArgs e){Console.WriteLine("BBB");}
     }
     class Program{
-        static void Main(){
+        static void MainTest(){
             Console.WriteLine("Alex is cool!");
 
             Console.WriteLine("************************************************************");
