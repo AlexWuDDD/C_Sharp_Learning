@@ -74,7 +74,7 @@ namespace Chapter15{
 
 
 
-        static void Main(){
+        static void MainTest(){
             Console.WriteLine("Alex is cool!");
             Console.WriteLine("******************************************");
             CA a = new CA(){name = "John Doe", Age = 35};
