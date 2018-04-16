@@ -46,7 +46,7 @@ namespace Chapter16
             public string Name = "Anonymous";
             public int Age = 25;
         }
-        static void Main()
+        static void MainTest()
         {
             ushort sh =10;
             byte sb = (byte)sh;
