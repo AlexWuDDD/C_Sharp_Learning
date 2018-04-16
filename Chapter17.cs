@@ -99,8 +99,64 @@ namespace Chapter17
         }
     }
 
+    interface IMyIfc<T>
+    {
+        T ReturnIt(T inValue);
+    }
+
+    class Simple3<S>:IMyIfc<S>
+    {
+        public S ReturnIt(S inValue)
+        { return inValue;}
+    }
+
+    class Simple4 : IMyIfc<int>, IMyIfc<string>
+    {
+        public int ReturnIt(int inValue)
+        {return inValue;}
+
+        public string ReturnIt(string inValue)
+        {
+            return inValue;
+        }
+    }
+
+    class Animal
+    {
+        public int NumberOfLegs = 4;
+    }
+
+    class Dog : Animal
+    {
+
+    }
+
+    delegate T Factory<out T> ();
+
+    interface IMyIfc1<out T>
+    {
+        T GetFirst();
+    }
+
+    class SimpleReturn<T> : IMyIfc1<T>
+    {
+        public T[] items = new T[2];
+        public T GetFirst() {return items[0];}
+    }
     class Program
     {
+        static Dog MakeDog()
+        {
+            return new Dog();
+        }
+
+        delegate void Action1<in T>(T a);
+        static void ActionOnAnimal(Animal a){Console.WriteLine(a.NumberOfLegs);}
+
+        static void DoSomething(IMyIfc1<Animal> returner)
+        {
+            Console.WriteLine(returner.GetFirst().NumberOfLegs);
+        }
         static void Main()
         {
             Console.WriteLine("Alex 2018-4-16");
@@ -157,8 +213,40 @@ namespace Chapter17
             Console.WriteLine("Total: {0}", MyDel1(15,13));
             Console.WriteLine("****************************************");
 
-            
-            
+            var trivInt = new Simple3<int>();
+            var trivString = new Simple3<string>();
+
+            Console.WriteLine("{0}", trivInt.ReturnIt(5));
+            Console.WriteLine("{0}", trivString.ReturnIt("Hi, there"));
+            Console.WriteLine("*****************************************");
+
+            Simple4 trivial = new Simple4();
+
+            Console.WriteLine("{0}", trivial.ReturnIt(5));
+            Console.WriteLine("{0}", trivial.ReturnIt("Hi, there."));
+            Console.WriteLine("******************************************");
+
+            Animal a1 = new Animal();
+            Animal a2 = new Dog();
+
+            Console.WriteLine("Number of dog legs: {0}", a2.NumberOfLegs);
+            Console.WriteLine("*******************************************");
+
+            Factory<Dog> dogMaker = MakeDog;
+            Factory<Animal> animalMaker = dogMaker;
+            Console.WriteLine(animalMaker().NumberOfLegs.ToString());
+            Console.WriteLine("********************************************");
+
+            Action1<Animal> act1 = ActionOnAnimal;
+            Action1<Dog> dog1 = act1;
+            dog1(new Dog());
+            Console.WriteLine("********************************************");
+
+            SimpleReturn<Dog> dogReturner = new SimpleReturn<Dog>();
+            dogReturner.items[0] = new Dog() {NumberOfLegs = 8888};
+            IMyIfc1<Animal> animalReturner = dogReturner;
+            DoSomething(animalReturner);
+
         }
     }
 }
