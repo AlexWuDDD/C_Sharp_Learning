@@ -157,7 +157,7 @@ namespace Chapter17
         {
             Console.WriteLine(returner.GetFirst().NumberOfLegs);
         }
-        static void Main()
+        static void MainTest()
         {
             Console.WriteLine("Alex 2018-4-16");
             Console.WriteLine("*************************************");
