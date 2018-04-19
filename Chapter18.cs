@@ -74,7 +74,7 @@ namespace Chapter18
     }
     class Program
     {
-        static void Main()
+        static void MainTest()
         {
             Console.WriteLine("2018-4-18");
 
