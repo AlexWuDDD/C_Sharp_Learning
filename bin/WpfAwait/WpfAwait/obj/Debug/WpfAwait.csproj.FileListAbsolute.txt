@@ -1,0 +1,15 @@
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\bin\Debug\WpfAwait.exe.config
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\bin\Debug\WpfAwait.exe
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\bin\Debug\WpfAwait.pdb
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.csprojResolveAssemblyReference.cache
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\MainWindow.g.cs
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\App.g.cs
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait_MarkupCompile.cache
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait_MarkupCompile.lref
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\MainWindow.baml
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.g.resources
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.Properties.Resources.resources
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.csproj.GenerateResource.cache
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.exe
+C:\Users\e823551\Documents\WPF_Learning\WpfAwait\WpfAwait\obj\Debug\WpfAwait.pdb
