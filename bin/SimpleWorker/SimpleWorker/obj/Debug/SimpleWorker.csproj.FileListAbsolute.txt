@@ -1,0 +1,15 @@
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\bin\Debug\SimpleWorker.exe.config
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\bin\Debug\SimpleWorker.exe
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\bin\Debug\SimpleWorker.pdb
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.csprojResolveAssemblyReference.cache
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\MainWindow.g.cs
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\App.g.cs
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker_MarkupCompile.cache
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker_MarkupCompile.lref
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\MainWindow.baml
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.g.resources
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.Properties.Resources.resources
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.csproj.GenerateResource.cache
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.exe
+C:\Users\e823551\Documents\WPF_Learning\SimpleWorker\SimpleWorker\obj\Debug\SimpleWorker.pdb

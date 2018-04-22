@@ -118,7 +118,7 @@ namespace Chapter20
 
     class Program
     {
-        static void Main()
+        static void MainTest()
         {
             Console.WriteLine("2018-4-21");
             Console.WriteLine("**********************************");
