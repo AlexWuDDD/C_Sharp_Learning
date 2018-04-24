@@ -1,0 +1,6 @@
+C:\Users\e823551\Documents\WPF_Learning\Timers\Timers\bin\Debug\Timers.exe.config
+C:\Users\e823551\Documents\WPF_Learning\Timers\Timers\bin\Debug\Timers.exe
+C:\Users\e823551\Documents\WPF_Learning\Timers\Timers\bin\Debug\Timers.pdb
+C:\Users\e823551\Documents\WPF_Learning\Timers\Timers\obj\Debug\Timers.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\WPF_Learning\Timers\Timers\obj\Debug\Timers.exe
+C:\Users\e823551\Documents\WPF_Learning\Timers\Timers\obj\Debug\Timers.pdb

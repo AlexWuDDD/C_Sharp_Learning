@@ -1,0 +1,10 @@
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\bin\Debug\MyWidgets.exe.config
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\bin\Debug\MyWidgets.exe
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\bin\Debug\MyWidgets.pdb
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\bin\Debug\SquareWidget.dll
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\bin\Debug\SquareWidget.pdb
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\obj\Debug\MyWidgets.csprojResolveAssemblyReference.cache
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\obj\Debug\MyWidgets.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\obj\Debug\MyWidgets.csproj.CopyComplete
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\obj\Debug\MyWidgets.exe
+C:\Users\e823551\Documents\WPF_Learning\MyWidgets\MyWidgets\obj\Debug\MyWidgets.pdb

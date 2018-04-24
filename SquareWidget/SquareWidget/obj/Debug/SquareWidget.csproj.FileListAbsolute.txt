@@ -1,0 +1,5 @@
+C:\Users\e823551\Documents\WPF_Learning\SquareWidget\SquareWidget\bin\Debug\SquareWidget.dll
+C:\Users\e823551\Documents\WPF_Learning\SquareWidget\SquareWidget\bin\Debug\SquareWidget.pdb
+C:\Users\e823551\Documents\WPF_Learning\SquareWidget\SquareWidget\obj\Debug\SquareWidget.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\WPF_Learning\SquareWidget\SquareWidget\obj\Debug\SquareWidget.dll
+C:\Users\e823551\Documents\WPF_Learning\SquareWidget\SquareWidget\obj\Debug\SquareWidget.pdb

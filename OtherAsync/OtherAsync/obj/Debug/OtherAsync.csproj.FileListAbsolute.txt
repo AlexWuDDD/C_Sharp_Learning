@@ -1,0 +1,7 @@
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\bin\Debug\OtherAsync.exe.config
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\bin\Debug\OtherAsync.exe
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\bin\Debug\OtherAsync.pdb
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\obj\Debug\OtherAsync.csprojResolveAssemblyReference.cache
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\obj\Debug\OtherAsync.csproj.CoreCompileInputs.cache
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\obj\Debug\OtherAsync.exe
+C:\Users\e823551\Documents\WPF_Learning\OtherAsync\OtherAsync\obj\Debug\OtherAsync.pdb
